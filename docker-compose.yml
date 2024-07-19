@@ -7,7 +7,7 @@ services:
     ports:
       - '5432:5432'
     environment:
-      - POSTGRES_USE=lesson
+      - POSTGRES_USER=lesson
       - POSTGRES_PASSWORD=lesson
       - POSTGRES_DATABASE=lesson
     command: postgres
